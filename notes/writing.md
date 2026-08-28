@@ -1,7 +1,7 @@
 ---
 title: Notes on writing
 layout: post
-date: 2020-07-14
+date: 2025-05-12
 author: Herman Kamper
 exclude: true
 ---
@@ -64,6 +64,10 @@ really sad. Here are some basic expectations:
   Y". Sometimes you can say that something is unexpected or surprising, but
   then you need to unpack why you say so, and help the reader see what you are
   seeing.
+- If you define an abbreviation, then you need to use it again somewhere in the
+  document, otherwise just do not define it. Also, always think whether it is
+  really necessary to define an abbreviation? Many modern papers end up just
+  looking like a huge sequence of abbreviations strung together to form sentences.
 - You don't have to use big words or be overly formal. Short, punchy sentences
   are often clearer and are easier to write (especially for second-language
   writers). I think students are now increasingly under the impression that
@@ -236,7 +240,7 @@ which should be capitalised, i.e. "JHU CLSP".
       authors through git, making it easier to isolate where changes have
       happened.
     - It also really helps with larger documents like theses.
-    - In Overleaf it is better better to use a single file, since separate
+    - In Overleaf it is better to use a single file, since separate
       files sometimes break the forward and backward search functionality.
       (This is maybe one more reason why I am not a huge Overleaf fan, but I
       think it's just me.)
@@ -266,11 +270,16 @@ which should be capitalised, i.e. "JHU CLSP".
 These are some personal conventions I follow (and might also recommend/force
 onto students).
 
-- **Abbreviations.** In a paper, I write out abbreviations---such as hidden
-  Markov model (HMM)---in the abstract, at first use in the body, and also in
-  the conclusion. I do this since I think these sections should be
-  self-contained. I also (normally) write out abbreviations in section
-  headings.
+- **Abbreviations.** Do not use capital letters when defining abbreviations,
+  e.g. write "automatic speech recognition (ASR)" not "Automatic Speech
+  Recognition (ASR)". The latter isn't wrong, it is just extremely difficult to
+  be consistent. Should language modelling (LM) also then be capitalised?
+  Probably. And then you end up capitalising a whole paper. Proper nouns are
+  capitalised, though, as in the HMM example in the next sentence.  
+  In a paper, I write out abbreviations---such as hidden Markov model (HMM)---in
+  the abstract, at first use in the body, and also in the conclusion. I do this
+  since I think these sections should be self-contained. I also (normally) write
+  out abbreviations in section headings.
 - **Tenses.** It is often tricky to know what tense (past, present, future) to
   use for different sections. My own convention is always to write in the
   present tense, except for the Conclusion, which I write in the past tense.

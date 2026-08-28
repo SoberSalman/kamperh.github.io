@@ -10,18 +10,30 @@ order: 5
 
 ### arXiv preprints
 
-- [Unsupervised word discovery: Boundary detection with clustering vs. dynamic programming](https://arxiv.org/abs/2409.14486)  
-  S. Malan, B. van Niekerk, and H. Kamper. Accepted to *ICASSP*, 2025. [[code](https://s-malan.github.io/prom-seg-clus/)]
-- [Speech recognition for automatically assessing Afrikaans and isiXhosa preschool oral narratives](https://arxiv.org/abs/2501.06478)  
-  C. Jacobs, A. Smith, D. Klop, O. Klejch, F. de Wet, and H. Kamper. Accepted to *ICASSP*, 2025.
-- [MARS6: A small and robust hierarchical-codec text-to-speech model](https://arxiv.org/abs/2501.05787 )  
-  M. Baas, P. Scholtz, A. Mehta, E. Dyson, A. Prakash, and H. Kamper. Accepted to *ICASSP*, 2025. [[code](https://camb-ai.github.io/mars6-turbo/)]
-- [Improved visually prompted keyword localisation in real low-resource settings](https://arxiv.org/abs/2409.06013)  
-  L. Nortje, D. Oneață, and H. Kamper. *arXiv preprint arXiv:2409.06013*, 2024. [[code](https://github.com/LeanneNortje/low-resource_VPKL)]
+- [Mapping written words to spoken words in a different language using only visual grounding](https://arxiv.org/abs/2608.26925)  
+  G. Pirlogeanu, D. Oneață, H. Cucu, and H. Kamper. *arXiv preprint arXiv:2608.26925*, 2026.
+- [Recovering the Zipfian distribution in unsupervised term discovery](https://arxiv.org/abs/2606.10781)  
+  D. Slabbert, S. Malan, and H. Kamper. *arXiv preprint arXiv:2606.10781*, 2026. [[code](https://github.com/adendorffy/zipf-clus)]
+- [Revisiting lexicon evaluation in unsupervised word discovery](https://arxiv.org/abs/2606.06183)  
+  S. Malan, D. Slabbert, and H. Kamper. *arXiv preprint arXiv:2606.06183*, 2026.
+- [Self-supervised speech comparison for L2 phone, rhythm, and intonation scoring](https://arxiv.org/abs/2607.13721)  
+  S. McIntosh, R. Smit, D. Saito, N. Minematsu, and H. Kamper. *arXiv preprint arXiv:2607.13721*, 2026
+- [Interpreting content and speaker characteristics in factorised self-supervised subspaces](https://arxiv.org/abs/2606.19974)  
+  K. Janse van Rensburg and H. Kamper. *arXiv preprint arXiv:2606.19974*, 2026.
+- [Connecting speech to words through images](https://arxiv.org/abs/2606.16807)  
+  G. Pirlogeanu, D. Oneață, H. Cucu, and H. Kamper. Accepted to the *Proceedings of the European Signal Processing Conference (EUSIPCO)*, 2026.
+- [ZeroSyl: Simple zero-resource syllable tokenization for spoken language modeling](https://arxiv.org/abs/2602.15537)  
+  N. Visser, S. Malan, D. Slabbert, and H. Kamper. Accepted to *Interspeech*, 2026. [[code](https://github.com/nicolvisser/ZeroSyl/)]
 
 
 ### Journal articles
 
+- [Should top-down clustering affect boundaries in unsupervised word discovery?](https://doi.org/10.1109/TASLPRO.2026.3659426)  
+  S. Malan, B. van Niekerk, and H. Kamper. *IEEE/ACM Transactions on Audio, Speech and Language Processing*, vol. 34, pp. 1163-1172, 2026.
+  [[arXiv](https://arxiv.org/abs/2507.19204), [code](https://github.com/s-malan/prom-seg-clus)]
+- [Interpreting speaker characteristics in the dimensions of self-supervised speech features](https://doi.org/10.1109/LSP.2026.3716838)  
+  K. Janse van Rensburg, B. van Niekerk, and H. Kamper. *IEEE Signal Processing Letters*, vol. 33, pp. 3132-3136, 2026.
+  [[arXiv](http://arxiv.org/abs/2603.03096), [samples](https://kylejvr767.github.io/SPL_demo_page/)]  
 - [Visually grounded speech models have a mutual exclusivity bias](https://doi.org/10.1162/tacl_a_00672)  
   L. Nortje, D. Oneață, Y. Matusevych, and H. Kamper. *Transactions of the Association for Computational Linguistics*, vol. 12, pp. 755-770, 2024.
   [[arXiv](https://arxiv.org/abs/2403.13922), [code](https://sites.google.com/view/mutualexclusivityinvgs)]
@@ -102,6 +114,47 @@ order: 5
 
 ### Conference papers
 
+**2026**
+
+- [Unsupervised lexicon learning from speech is limited by representations rather than clustering]({{site.url}}/papers/slabbert+malan+kamper_icassp2026.pdf)  
+  D. Slabbert, S. Malan, and H. Kamper. In *Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, 2026.
+  [[arXiv](https://arxiv.org/abs/2510.09225)]
+
+**2025**
+
+- [LinearVC: Linear transformations of self-supervised features through the lens of voice conversion]({{site.url}}/papers/kamper+vanniekerk+zaidi+carbonneua_interspeech2025.pdf)  
+  H. Kamper, B. van Niekerk, J. Zaïdi, and M-A. Carbonneau. In *Proceedings of Interspeech*, 2025.
+  [[arXiv](https://arxiv.org/abs/2506.01510), [code](https://github.com/kamperh/linearvc), [samples](https://www.kamperh.com/linearvc)]
+- [Spoken language modeling with duration-penalized self-supervised units]({{site.url}}/papers/visser+kamper_interspeech2025.pdf)  
+  N. Visser and H. Kamper. In *Proceedings of Interspeech*, 2025.
+  [[arXiv](https://arxiv.org/abs/2505.23494), [code](https://github.com/nicolvisser/dp-slm)]
+- [The mutual exclusivity bias of bilingual visually grounded speech models]({{site.url}}/papers/oneata+nortje+matusevych+kamper_interspeech2025.pdf)  
+  D. Oneață, L. Nortje, Y. Matusevych, and H. Kamper. In *Proceedings of Interspeech*, 2025.
+  [[arXiv](https://arxiv.org/abs/2506.04037), [code](https://github.com/danoneata/me-vgs)]
+- [Unsupervised word discovery: Boundary detection with clustering vs. dynamic programming]({{site.url}}/papers/malan+vanniekerk+kamper_icassp2025.pdf)  
+  S. Malan, B. van Niekerk, and H. Kamper. In *Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, 2025.
+  [[arXiv](https://arxiv.org/abs/2409.14486), [code](https://s-malan.github.io/prom-seg-clus)]
+- [Speech recognition for automatically assessing Afrikaans and isiXhosa preschool oral narratives]({{site.url}}/papers/jacobs+smith+klop+klejch+dewet+kamper_icassp2025.pdf)  
+  C. Jacobs, A. Smith, D. Klop, O. Klejch, F. de Wet, and H. Kamper. In *Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, 2025.
+  [[arXiv](https://arxiv.org/abs/2501.06478), [video](https://youtu.be/TFTRYssql9M)]
+- [MARS6: A small and robust hierarchical-codec text-to-speech model]({{site.url}}/papers/baas+scholtz+mehta+dyson+prakash+kamper_icassp2025.pdf)  
+  M. Baas, P. Scholtz, A. Mehta, E. Dyson, A. Prakash, and H. Kamper. In *Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, 2025.
+  [[arXiv](https://arxiv.org/abs/2501.05787), [code](https://camb-ai.github.io/mars6-turbo)]
+- [Improved visually prompted keyword localisation in real low-resource settings]({{site.url}}/papers/nortje+oneata+pirlogeanu+kamper_sped2025.pdf)  
+  L. Nortje, D. Oneață, G. Pîrlogeanu, and H. Kamper. In *Proceedings of the Conference on Speech Technology and Human-Computer Dialogue (SpeD)*, 2025.
+  [[arXiv](https://arxiv.org/abs/2409.06013), [code](https://github.com/LeanneNortje/low-resource_VPKL)]
+- [Analyzing and improving speaker similarity assessment for speech synthesis]({{site.url}}/papers/carbonneua+vanniekerk+seute+letendre+kamper+zaidi_ssw2025.pdf)  
+  M-A. Carbonneau, B. van Niekerk, H. Seuté, J-P. Letendre, H. Kamper, and J. Zaïdi. In *Proceedings of the Speech Synthesis Workshop (SSW)*, 2025.
+  [[arXiv](https://arxiv.org/abs/2507.02176), [code](https://github.com/ubisoft/ubisoft-laforge-spkrid)]
+- [Automatically assessing oral narratives of Afrikaans and isiXhosa children]({{site.url}}/papers/louw+sharratt+dewet+jacobs+smith+kamper_slate2025.pdf)  
+  R. Louw, E. Sharratt, F. de Wet, C. Jacobs, A. Smith, and H. Kamper. In *Proceedings of the Workshop on Speech and Language Technology in Education (SLaTE)*, 2025.
+  [[arXiv](https://arxiv.org/abs/2507.13205)]
+- [Feature-based analysis of oral narratives from Afrikaans and isiXhosa children]({{site.url}}/papers/sharratt+smith+louw+klop+dewet+kamper_slate2025.pdf)  
+  E. Sharratt, A. Smith, R. Louw, D. Klop, F. de Wet, and H. Kamper. In *Proceedings of the Workshop on Speech and Language Technology in Education (SLaTE)*, 2025.
+  [[arXiv](https://arxiv.org/abs/2507.13164)]
+- [Towards few-shot isolated word reading assessment]({{site.url}}/papers/smit+louw+kamper_slate2025.pdf)  
+  R. Smit, R. Louw, and H. Kamper. In *Proceedings of the Workshop on Speech and Language Technology in Education (SLaTE)*, 2025. [**best student paper**]
+  [[arXiv](https://arxiv.org/abs/2507.12217), [code](https://github.com/Reubix29/child-speech-bench)]
 
 **2024**
 

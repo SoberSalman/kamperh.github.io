@@ -1,0 +1,13 @@
+---
+layout: page
+title: Teaching
+permalink: /teaching/
+order: 2
+---
+
+# Teaching
+
+- [Introduction to machine learning](https://www.kamperh.com/data414/) (Data Analytics 414)
+- [Introduction to natural language processing](https://www.kamperh.com/nlp817/) (Natural Language Processing 817)
+- [Introduction to digital signal processing](https://www.kamperh.com/ss414/) (Systems and Signals 414)
+- [Introduction to programming with C](https://www.kamperh.com/cp143/) (Computer Programming 143)

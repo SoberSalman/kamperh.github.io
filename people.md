@@ -2,27 +2,30 @@
 layout: page
 title: People
 permalink: /people/
-order: 5
+order: 3
 ---
 
 # Language, Speech and Learning (LSL)
 
-*Language, Speech and Learning (LSL)* is a small research group at Stellenbosch University working on methods allowing speech and language processing systems to be developed with as little supervision as possible. Apart from the students listed below, LSL has several members from the [DSP laboratory](https://ee.sun.ac.za/signal-processing-machine-learning/) and the [MediaLab](https://ml.sun.ac.za/) at Stellenbosch.
+*Language, Speech and Learning (LSL)* is a small research group at Stellenbosch University working on methods allowing speech and language processing systems to be developed with as little supervision as possible. Apart from the students listed below, LSL has members from the [DSP laboratory](https://ee.sun.ac.za/signal-processing-machine-learning/), [Computer Science](https://cs.sun.ac.za/) and the [MediaLab](https://ml.sun.ac.za/) at Stellenbosch.
 
 
 ### Current students
 
 - Nicol Visser (PhD)
 - Reuben Smit (PhD)
-- Danel Adendorff (MEng)
+- Simon Malan (PhD)
+- Gabriel Pirlogeanu (PhD, main supervisors: [Horia Cucu](https://speed.pub.ro/people/horia-cucu/) and [Dan Oneață](https://doneata.bitbucket.io/))
+- Danel Slabbert (MEng)
 - Kyle Janse van Rensburg (MEng)
-- Emma Sharratt (MEng)
-- Retief Louw (MEng)
-- Simon Malan (MEng)
+- Camryn Abrahamson (MEng)
+- Daanshil Ramgutty (MEng)
 
 
 ### Past students
 
+- Emma Sharratt (MEng, 2026)
+- Retief Louw (MEng, 2026)
 - Nicol Visser (MEng, 2025)
 - Christiaan Jacobs (Postdoc, 2024)
 - [Matthew Baas](https://rf5.github.io/) (PhD, 2024)
