@@ -10,6 +10,8 @@ order: 5
 
 ### arXiv preprints
 
+- [Mapping written words to spoken words in a different language using only visual grounding](https://arxiv.org/abs/2608.26925)  
+  G. Pirlogeanu, D. Oneață, H. Cucu, and H. Kamper. *arXiv preprint arXiv:2608.26925*, 2026.
 - [Recovering the Zipfian distribution in unsupervised term discovery](https://arxiv.org/abs/2606.10781)  
   D. Slabbert, S. Malan, and H. Kamper. *arXiv preprint arXiv:2606.10781*, 2026. [[code](https://github.com/adendorffy/zipf-clus)]
 - [Revisiting lexicon evaluation in unsupervised word discovery](https://arxiv.org/abs/2606.06183)  
